@@ -28,13 +28,13 @@ const App = () => {
       <h1>Dictionary App</h1>
       <input 
       type="text" 
-      placeholder="Enter Word" 
+      placeholder="Search for a word..." 
       value={searchTerm} 
       onChange={(e) => setSearchTerm(e.target.value)}/>
       <button onClick={handleSearch}>Search</button>
+      <h3>Definition:</h3>
       {result && (
         <div>
-          <h3>Definition:</h3>
           <p>{result}</p>
         </div>
       )}
