@@ -25,7 +25,7 @@ const App = () => {
   };
   return (
     <div>
-      <h1>XDictionary</h1>
+      <h1>Dictionary App</h1>
       <input 
       type="text" 
       placeholder="Enter Word" 
